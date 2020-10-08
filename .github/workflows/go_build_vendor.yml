@@ -33,7 +33,7 @@ jobs:
         
     - name: Vendor
       run: |
-        go mod vendor .
+        go mod vendor -v
 
     - name: Build
       run: go build -v .
